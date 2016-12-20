@@ -1,0 +1,77 @@
+body , html{
+  margin: 0;
+  padding: 0;
+}
+#background{
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1000;
+  position: fixed;
+}
+
+
+
+#logobig{
+  margin: 0 auto;
+  width: 30%;
+  height: 40%;
+  margin-left: 500px;
+  position: absolute;
+}
+
+#arrow{
+  width: 100px;
+  height: 100px;
+  margin-left: 50%;
+  margin-top: 600px;
+}
+
+#Welcome{
+  color: white;
+  font-size: 200%;
+}
+
+.clearHeader{
+display: none;
+position: absolute;
+}
+
+
+.darkHeader {
+position: fixed;
+width: 100%;
+height: 30%;
+padding: 50px;
+
+}
+nav{
+  text-align: center;
+  position: relative;
+  top: 25%;
+}
+nav a{
+  color: black;
+  background-color: #e5ae4d;
+  opacity: 0.7;
+  position: relative;
+  padding: 1% 3%;
+  width: 200px;
+  height: 200px;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 150%;
+}
+
+
+.wrapper {
+height:3000px;
+}
+
+.text{
+  width: 100%;
+  height: 1000px;
+  background-color: #e5ae4d;
+  color: #fff;
+  opacity: 0.7;
+}
