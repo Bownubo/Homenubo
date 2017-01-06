@@ -16,8 +16,8 @@
       <a href="#Home">Home</a>
       <a href="#About">About</a>
       <a href="#Menu">Menu</a>
-      <a href="#Gallery">Gallery</a>
       <a href="#Catering">Catering</a>
+      <a href="#Gallery">Gallery</a>
       <a href="#Contact">Contact</a>
     </nav>
   </header>
@@ -40,18 +40,165 @@
       </div>
     </section>
 
+
     <section id="About">
+
       <div class="textcontainer">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/TGY3iP4X34c" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TGY3iP4X34c" frameborder="0" allowfullscreen></iframe>
         <h1>About</h1>
         <p>Suspendisse potenti. Suspendisse potenti. Aliquam pellentesque sollicitudin neque vel cursus. Nulla vulputate consectetur ex a finibus. Maecenas bibendum pulvinar libero eu tristique. Curabitur vitae diam vulputate, scelerisque elit eu, volutpat risus. Fusce congue lectus non felis dapibus, sed tincidunt metus luctus. Vivamus nisl sapien, sodales vitae dignissim eget, eleifend vel elit. Integer lobortis egestas iaculis. Pellentesque ac blandit neque, pellentesque vulputate eros. Nunc pharetra vestibulum felis, sed rhoncus tortor auctor sed. Quisque viverra dui eu justo vulputate, in egestas urna ultricies. Maecenas luctus enim lorem, vitae tristique ligula fermentum sit amet. Nunc rhoncus, elit luctus lacinia pretium, lectus mauris convallis elit, id gravida dui enim in lorem.</p>
         <p>Nam vitae sem lacinia, semper tortor vel, auctor elit. Etiam sed nulla non mi venenatis consequat in non mi. Nullam euismod pulvinar volutpat. Pellentesque molestie orci odio, a placerat turpis semper et. Suspendisse pulvinar sem ac nibh consequat porttitor. Nam molestie ullamcorper laoreet. Maecenas et purus quis nibh fermentum imperdiet. Vivamus varius risus vitae sodales egestas. Aliquam porta efficitur lacus at viverra. Curabitur sit amet sem quis ipsum dignissim consequat eget at ipsum. Mauris commodo pulvinar sapien, a vehicula neque. Morbi at fringilla erat. Cras porttitor et nibh bibendum venenatis.</p>
         <img src="img/food1.jpg" alt="food1error" id="food1">
         <img src="img/food2.jpg" alt="food2error" id="food2">
+          </div>
+    </section>
 
-        </svg>
+    <section id="Menu">
+      <div class="textcontainer">
+        <h1>Our menu</h1>
+          <table>
+
+           <tr>
+              <th>Main</th>
+              <td>Petite</td>
+              <td>Small</td>
+              <td>Medium</td>
+              <td>Large</td>
+          </tr>
+
+          <tr>
+              <th>Main 01</th>
+              <td>2,50</td>
+              <td>4,50</td>
+              <td>6,00</td>
+              <td>9,00</td>
+          </tr>
+
+          <tr>
+             <th>Main 02</th>
+             <td>3,50</td>
+             <td>5,00</td>
+             <td>7,00</td>
+             <td>11,00</td>
+         </tr>
+
+         <tr>
+            <th>Main 03</th>
+            <td>2,00</td>
+            <td>4,00</td>
+            <td>5,00</td>
+            <td>6,00</td>
+        </tr>
+
+        <tr>
+           <th>Main 04</th>
+           <td>2,30</td>
+           <td>3,00</td>
+           <td>4,00</td>
+           <td>6,00</td>
+       </tr>
+
+
+        <tr>
+           <th>Sub</th>
+           <td>Half</td>
+           <td>Full</td>
+        </tr>
+
+        <tr>
+           <th>Sub 01</th>
+           <td>1,50</td>
+           <td>3,00</td>
+       </tr>
+
+       <tr>
+          <th>sub 02</th>
+          <td>0,50</td>
+          <td>1,00</td>
+      </tr>
+
+      <tr>
+         <th>Desserts</th>
+         <td>price</td>
+     </tr>
+
+     <tr>
+        <th>Desserts 01</th>
+        <td>2,00</td>
+    </tr>
+
+    <tr>
+       <th>Desserts 02</th>
+       <td>3,00</td>
+   </tr>
+         </table>
       </div>
     </section>
+
+<section id="Catering">
+  <div class="textcontainer">
+    <h1>Catering</h1>
+    <form>
+    <form action="#" method="get">
+    Your name:
+    <input type="text" name="Your name"><br>
+    Email address:
+    <input type="text" name="Email"><br>
+    What's the event called
+    <input type="text" name="Event"><br>
+    In what region is the event?
+    <input type="text" name="region"><br>
+    What is your phone number?
+    <input type="text" name="phone"><br>
+
+    Please provide any other details you think will be useful to us in the text area below<br>
+    <i>it may save us calling or emaling you and help avoid delays</i><br>
+    <textarea rows="4" cols="50"></textarea><br>
+    <input type="checkbox" name="share" value="information" checked>we may share information you give us here with other like-minded people or websites to promote the event. Please confirm if you are happy for us to do this.<br><br>
+
+
+  if we need to call you back for any more info,<br>
+  what would be the best time to call you on the number supplied<br>
+
+ <label for="morning">In the morning</label>
+ <input type="checkbox" name="morning" value="morning"><br>
+ <label for="afternoon">In the afternoon</label>
+ <input type="checkbox" name="afternoon" value="afternoon"><br>
+ <label for="evening">In the evening</label>
+ <input type="checkbox" name="evening" value="evening"><br>
+ <label for="No calls">No calls please</label>
+ <input type="checkbox" name="nocall" value="no call"><br>
+
+
+  <br><input type="submit" value="Submit">
+  </form>
+  </div>
+</section>
+
+<section id="Gallery">
+  <div class="textcontainer">
+    <h1>Gallery</h1>
+    <img src="img/foodbig1.jpg" class="bigimg" alt="error">
+    <img src="img/foodbig2.jpg" class="bigimg">
+
+    <img src="img/food3.jpg" alt="error" class="smallimg">
+    <img src="img/food4.jpg" class="smallimg">
+    <img src="img/cooking1.jpg" class="smallimg">
+    <img src="img/cooking2.jpg" class="smallimg"><br>
+
+    <img src="img/food6.jpg" class="smallimg">
+    <img src="img/food7.jpg" class="smallimg">
+    <img src="img/cooking3.jpg" class="smallimg">
+    <img src="img/cooking4.jpg" class="smallimg"><br>
+
+    <img src="img/food8.jpg" class="smallimg">
+    <img src="img/food5.jpg" alt="error" class="smallimg">
+    <img src="img/cooking5.jpg" class="smallimg">
+    <img src="img/cooking6.jpg" class="smallimg">
+
+
+
+
   </div>
 </body>
 
