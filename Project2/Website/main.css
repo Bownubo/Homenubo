@@ -78,7 +78,7 @@ width: 100%;
 .textcontainer{
   background-color: #e5ae4d;
   opacity: 0.9;
-  height: 500px;
+  height: 600px;
   width: 97%;
   padding: 25px;
   z-index: -500;
@@ -111,10 +111,22 @@ width: 100%;
   padding-top: 15%;
   z-index:-5;
 }
-h1{
-color: white;
+#Contact{
+margin-top: 300px;
+padding-top: 15%;
+z-index:-5;
 }
 
+#Contact2{
+  margin-top: 300px;
+  padding-top: 15%;
+  z-index:-5;
+}
+
+
+h1{
+  color: white;
+}
 
 
 p{
@@ -162,6 +174,8 @@ th{
 
 form{
   z-index: 300;
+  color: white;
+  font-size: 120%
 }
 textarea{
   resize: none;
@@ -174,11 +188,20 @@ textarea{
 .smallimg{
   height: 140px;
   width: 140px;
-  padding: 3px;
+  padding: 1px;
 }
 .bigimg{
 float: right;
 height: 350px;
 width: 400px;
-padding: 25px;
+padding: 10px;
+}
+.contactref{
+  float: right;
+}
+#arrow2{
+width: 100px;
+height: 100px;
+margin-left: 150%;
+margin-top: 100px;
 }
