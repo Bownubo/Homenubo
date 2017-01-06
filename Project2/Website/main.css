@@ -82,7 +82,6 @@ width: 100%;
   width: 97%;
   padding: 25px;
   z-index: -500;
-  position: relative;
 }
 #padding{
   padding: 25px 25px 25px 25px;
@@ -90,14 +89,37 @@ width: 100%;
 #Home{
   margin-top: 300px;
   padding-top: 15%;
+  z-index: -5;
 }
 #About{
   margin-top: 300px;
   padding-top: 15%;
+  z-index: -5;
 }
+#Menu{
+  margin-top:300px;
+  padding-top: 15%;
+  z-index: -5;
+}
+#Catering{
+  margin-top: 300px;
+  padding-top: 15%;
+  z-index: -5;
+}
+#Gallery{
+  margin-top: 300px;
+  padding-top: 15%;
+  z-index:-5;
+}
+h1{
+color: white;
+}
+
+
 
 p{
   color: white;
+  font-size: 120%;
   opacity: 1;
   padding: 5px;
 }
@@ -122,4 +144,41 @@ iframe{
   width: 300px;
   height: 150px;
   padding: 10px;
+}
+
+table,tr{
+
+  opacity: 1;
+  width: 100%;
+  font-size: 120%;
+}
+td{
+  padding-bottom: 10px;
+}
+th{
+    color: white;
+    font-size: 120%
+}
+
+form{
+  z-index: 300;
+}
+textarea{
+  resize: none;
+}
+
+.floattext{
+  float: right;
+  margin-bottom: 100px;
+}
+.smallimg{
+  height: 140px;
+  width: 140px;
+  padding: 3px;
+}
+.bigimg{
+float: right;
+height: 350px;
+width: 400px;
+padding: 25px;
 }
