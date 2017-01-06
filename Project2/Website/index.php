@@ -195,11 +195,44 @@
     <img src="img/food5.jpg" alt="error" class="smallimg">
     <img src="img/cooking5.jpg" class="smallimg">
     <img src="img/cooking6.jpg" class="smallimg">
+    </div>
+  </section>
 
+  <section id="Contact">
+    <div class="textcontainer">
+      <h1 class="contactref">Need help finding our restaurant?<br>Click on the arrow</h1>
+        <a href=#Contact2 class="contactref"><img src="img/arrow.png" id="arrow2"></a>
 
+      <h1>Contact</h1>
+      <p>Hey there!<br>
+      Want to send us a message with some feedback? Please do.<br>
+      <i>(if you just wanna say hi that's fine too!)</i></p>
 
+    <form>
+      <form action="#" method="get">
+      Your name:
+      <input type="text" name="Name"><br>
+      Your email address:
+      <input type="text" name="Email"><br>
+      Your message:<br>
+      <textarea rows="4" cols="50"></textarea><br>
+        <br><input type="submit" value="Submit">
+      </form>
+    </div>
+  </section>
 
-  </div>
+  <section id="Contact2">
+    <div class="textcontainer">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2448.3699210958857!2d4.491250430589882!3d52.14578203251183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5c6fa33f3a9cd%3A0x300e2bd274fd6ebc!2sROC+Leiden!5e0!3m2!1sen!2snl!4v1483694886544" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+      <h1>Finding us</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum vitae mauris nec imperdiet. Proin et ex lobortis, varius libero at, lacinia tortor. In varius, quam sit amet consequat tempor, erat turpis consectetur odio, a volutpat eros tellus non diam. Cras feugiat nunc at tempor commodo. Phasellus elementum turpis nisi, sed hendrerit elit mollis vel. Pellentesque aliquam porta dolor, eleifend commodo sapien fermentum ac. Quisque in dictum quam. Integer dapibus ac urna sit amet scelerisque. Proin vel imperdiet nisi, sit amet auctor mauris. Duis sit amet ultrices leo, vel egestas purus. In hac habitasse platea dictumst.</p>
+      <p>Etiam vulputate mauris ultricies felis maximus elementum. Vivamus tincidunt pulvinar diam, at blandit nunc elementum quis. Mauris malesuada a libero eu ornare. Praesent viverra ligula id eleifend hendrerit. Suspendisse nec lectus semper, scelerisque mauris a, elementum turpis. Nullam facilisis nisi nisl, ac placerat justo accumsan non. Ut ac mollis felis, interdum gravida velit. Mauris sit amet leo congue, pellentesque mauris vel, iaculis ipsum. Pellentesque congue dapibus felis et suscipit. Sed dolor arcu, hendrerit maximus est at, luctus sollicitudin massa. In placerat odio vel libero sodales, id varius dui vestibulum. Etiam ut dolor nunc. Integer sed pretium augue.</p>
+      <p>Aliquam velit ipsum, rhoncus quis justo nec, venenatis tincidunt nisi. Donec vestibulum nunc sed dui euismod, et pretium nunc congue. Fusce at erat cursus tortor varius congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Nunc tristique sed tellus sed hendrerit. Suspendisse rhoncus dictum cursus. Morbi at enim et tortor viverra feugiat. Pellentesque porta lacus at est sollicitudin tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec mollis felis. In nec tortor id lectus tristique ultrices. Donec lobortis, velit eu ultricies iaculis, justo libero sollicitudin mi, eu ullamcorper turpis ipsum sed justo.</p>
+    </div>
+  </section>
+
+</div>
 </body>
 
 
